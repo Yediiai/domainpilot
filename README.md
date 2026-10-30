@@ -42,3 +42,4 @@ Visit: `http://localhost:9001`
 - **Styling:** Tailwind CSS (Custom Dark Navy & Electric Blue theme)
 - **Icons:** Lucide React
 - **Forms:** React Hook Form + Zod validation
+
