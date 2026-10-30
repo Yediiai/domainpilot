@@ -31,7 +31,6 @@ jobs:
       - name: 📝 Setup Environment File
         run: |
           if [ -n "${{ secrets.ENV_FILE }}" ]; then
-            echo "${{ secrets.ENV_FILE }}" > .env.production
             echo "${{ secrets.ENV_FILE }}" > .env.Development
           elif [ -f .env.Development ]; then
             cp .env.Development .env.production
