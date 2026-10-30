@@ -26,3 +26,4 @@ services:
           target: /app/public
         - action: rebuild
           path: ./package.json
+
